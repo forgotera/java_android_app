@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Name">Имя</string>
+    <string name="Order">Заказать</string>
+    <string name="Quantity">Количество:</string>
+    <string name="Thank_you">Спасибо </string>
+    <string name="Total">Итог:</string>
+    <string name="Whipped_cream">Сбитые сливки</string>
+    <string name="add_Whipped_cream">Добавить сбитые сливки:</string>
+    <string name="add_chocolate">Добавить шоколад:</string>
+    <string name="app_name">Заказ кофе</string>
+    <string name="chokolate">Шоколад</string>
+    <string name="toppings">Сироп</string>
+    <string name="order_for">Кофе для:</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">weather</string>
+    <string name="units">units=metric</string>
+</resources>

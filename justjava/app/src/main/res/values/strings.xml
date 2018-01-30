@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">just java</string>
+    <string name="Whipped_cream">Whipped cream</string>
+    <string name="toppings">toppings</string>
+    <string name="Name">Name</string>
+    <string name="chokolate">chokolate</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Order">Order</string>
+    <string name = "Thank_you">Thank you</string>
+    <string name="Total">Total:$</string>
+    <string name="add_chocolate">add chocolate:</string>
+    <string name="add_Whipped_cream">add Whipped cream:</string>
+    <string name="order_for">JustJava order for </string>
+</resources>

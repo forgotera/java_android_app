@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.era.helloworld.MainActivity"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/i"
+        android:onClick="onClick"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="поздороваться"
+        android:id="@+id/buttonHello"
+        android:onClick="onClicked"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonCrowsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Считаем ворон"
+        android:layout_below="@+id/buttonHello"
+        android:layout_alignRight="@+id/buttonHello"
+        android:layout_alignEnd="@+id/buttonHello" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Считаем котов"
+        android:id="@+id/buttonCat"
+        android:layout_below="@+id/buttonCrowsCounter"
+        android:layout_alignLeft="@+id/buttonCrowsCounter"
+        android:layout_alignStart="@+id/buttonCrowsCounter"
+        android:layout_alignRight="@+id/buttonCrowsCounter"
+        android:layout_alignEnd="@+id/buttonCrowsCounter"
+        android:onClick="clickedCat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCat"
+        android:layout_alignTop="@+id/editText"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton" />
+
+</RelativeLayout>
